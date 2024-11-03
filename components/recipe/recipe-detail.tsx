@@ -55,6 +55,8 @@ export function RecipeDetail({ recipe }: RecipeDetailProps) {
               src={recipe.image}
               alt={recipe.title}
               className="w-full aspect-video object-cover rounded-lg"
+              width={800}
+              height={450}
             />
             <div className="flex flex-wrap gap-6 text-sm">
               <div className="flex items-center gap-2">
